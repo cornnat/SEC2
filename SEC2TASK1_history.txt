@@ -1,0 +1,500 @@
+   85  cd ..
+   86  cd ..
+   87  ls
+   88  chmod +x file_remove_script.sh
+   89  ./file_remove_script.sh /root/Desktop/host/p2
+   90  ls
+   91  file_remove .
+   92  ls
+   93  cd problem1
+   94  ls
+   95  cd ..
+   96  code sort_files.sh
+   97  ls
+   98  code sort_files_even_odd.sh
+   99  chmod +x sort_files_even_odd.sh
+  100  source sort_files_even_odd.sh
+  101  sort_files_even_odd ./problem1/electron_scattering_data
+  102  ls
+  103  cd problem 1
+  104  cd problem1
+  105  ls
+  106  cd electron_scattering_data
+  107  ls
+  108  cd even
+  109  ls
+  110  cd ..
+  111  cd ..
+  112  cd ..
+  113  ls
+  114  git add .
+  115  git add .
+  116  history | tail -n 100000 >> history.txt
+  117  ls
+  118  git add .
+  119  git commit -m "bash scripts for file removal and sorting. includes history of commands"
+  120  git push origin main
+  121  git init
+  122  git remote add origin https://github.com/cornnat/HW1-P3.git
+  123  git remote -v
+  124  git remote set-url origin https://github.com/cornnat/HW1-P3.git
+  125  git remote -v
+  126  git push -u origin main
+  127  https://github.com/cornnat/HW1-P3.git
+  128  git reset HEAD~1
+  129  git push --force
+  130  git reset HEAD~2
+  131  git reset HEAD~1
+  132  git push --force
+  133  git reset HEAD~1
+  134  git push --force
+  135  ls -la
+  136  git status
+  137  git remote -v
+  138  git log
+  139  ls
+  140  cd ..
+  141  ls
+  142  cd host
+  143  ls
+  144  mkdir Problem_3
+  145  cd problem_3
+  146  ls
+  147  git init
+  148  git remote -v
+  149  git remote add origin https://github.com/cornnat/HW1-P3.git
+  150  git remote -v
+  151  git branch
+  152  git status
+  153  git branch -m master main
+  154  git status
+  155  git push -u origin master
+  156  git branch
+  157  git status
+  158  git init
+  159  git checkout -b main
+  160  git branch
+  161  git push -u origin main
+  162  git checkout -b main
+  163  echo "test" > file.txt
+  164  git add file.txt
+  165  git commit -m "test commit"
+  166  git branch
+  167  code convert_decimal.sh
+  168  chmod +x convert_decimal.sh
+  169  ./convert_decimal.sh
+  170  ./convert_decimal.sh 
+  171  ./convert_decimal.sh 
+  172  ./convert_decimal.sh 400
+  173  ls
+  174  rm file.txt 
+  175  ls
+  176  cat conversion_result.txt
+  177  git status
+  178  git add .
+  179  git commit -m "adding conversion script and conversion result file"
+  180  git push origin main
+  181  git checkout main
+  182  git fetch origin
+  183  git push origin main --force
+  184  git status
+  185  history | tail -n 100000 >> history.txt
+  186  ls
+  187  git add .
+  188  git commit -m "adding terminal history"
+  189  git push origin main
+  190  ls
+  191  mkdir HW1_P4
+  192  cd hw1_p4
+  193  ls
+  194  git remote -v
+  195  git remote set-url origin https://github.com/cornnat/SEC1.git
+  196  git remote -v
+  197  git init
+  198  git pull origin main
+  199  git pull main
+  200  git branch
+  201  git checkout main
+  202  git checkout master
+  203  git branch -r
+  204  git checkout -b main origin/main
+  205  git branch -r
+  206  git remote -v
+  207  git remote add origin https://github.com/cornnat/SEC1.git
+  208  git remote -v
+  209  git fetch origin
+  210  git checkout main
+  211  git status
+  212  git checkout feature_branch
+  213  git checkout -b feature_branch
+  214  git rev-parse --show-toplevel
+  215  echo "hello world!" > README.md
+  216  ls
+  217  git add .
+  218  git commit -m "added README file for HW 1 P 4"
+  219  git push origin feature branch
+  220  git checkout feature_branch
+  221  ls
+  222  git push origin feature_branch
+  223  ls
+  224  rm ./*.pdf
+  225  rm ./*txt
+  226  ls
+  227  git rm section_worksheet_week1.pdf
+  228  git commit -m "removed extra files copied over from main branch"
+  229  git push origin feature_branch
+  230  git push origin feature_branch --force
+  231  git rm src_info.txt
+  232  git rm test_info.txt
+  233  git rm Section_worksheet_Week1.pdf
+  234  git commit -m "removed extra files copied over from main branch"
+  235  git push origin feature_branch
+  236  git checkout main
+  237  git pull origin main
+  238  git merge feature_branch
+  239  git commit -m "merge feature_branch into main"
+  240  git status
+  241  git push origin main
+  242  ls
+  243  git log
+  244  git revert 63ac19ab087397a2edea2819d606921794c56b5e
+  245  git remote -v
+  246  git reset --soft HEAD~1
+  247  git reset --hard HEAD~1
+  248  git log
+  249  git status
+  250  ls -a
+  251  cd hw1_p4
+  252  ls
+  253  ls
+  254  cd ..
+  255  cat src_info.txt
+  256  cat test_info.txt
+  257  git status
+  258  git log --oneline
+  259  git add src_info.txt
+  260  git add test_info.txt
+  261  git commit -m "adding back the section 1 work i accidentally deleted. hope it's all the same"
+  262  git push origin main
+  263  git pull origin main
+  264  git status
+  265  git push origin main
+  266  git pull origin main
+  267  cat README.md
+  268  history | tail -n 100000 >> history.txt
+  269  git add history.txt
+  270  git push origin main
+  271  ls
+  272  git add history.txt
+  273  git push origin main
+  274  git status
+  275  git commit -m "terminal history"
+  276  git push origin main
+  277  ls
+  278  mv readme.md ./hw1_p4
+  279  mv history.txt history_hw1p4.txt
+  280  mv history_hw1p4.txt ./hw1_p4
+  281  ls
+  282  mv P2 HW1_P2
+  283  mv Problem_3 HW1_P3
+  284  cat test_4.txt
+  285  ls
+  286  mkdir SEC1
+  287  mv src_info.txt ./SEC1
+  288  ls
+  289  mv p1_basic_unix ./Archive_P1
+  290  mv p1_basic_unix.tar.gz  ./Archive_P1/
+  291  ls
+  292  mv mesh.dat ./SEC1/
+  293  mkdir SEC2
+  294  mv sec2.py ./SEC2
+  295  mv sec2.ipynb ./SEC2
+  296  ls
+  297  mv test_4.txt ./Archive_P1/
+  298  mv test_info.txt ./Archive_P1/
+  299  mv mesh_visualized_test.png ./SEC2
+  300  ls
+  301  mv Section_worksheet_Week2.pdf ./SEC2
+  302  ls
+  303  ls
+  304  mv ./SEC1 ./SEC1-whoops
+  305  ls
+  306  mkdir SEC1
+  307  ls
+  308  cd SEC1
+  309  git init
+  310  git config --list
+  311  git checkout -b main
+  312  git remote add origin https://github.com/cornnat/SEC1.git
+  313  git remote -v
+  314  echo "(this is a message from local main branch)" >> src_info.txt
+  315  ls
+  316  cat src_info.txt
+  317  git add src_info.txt
+  318  git commit -m "add a message from the local main branch"
+  319  git status
+  320  git log
+  321  git reset HEAD~1
+  322  git status
+  323  git log
+  324  echo "(this is a message from local main branch)" >> src_info.txt
+  325  cat src_info.txt
+  326  git add src_info.txt
+  327  git commit -m "add a message from the local main branch"
+  328  git push origin main
+  329  git checkout -b feature branch
+  330  echo "(this is a message from local feature branch)"
+  331  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  332  ls
+  333  mkdir test
+  334  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  335  ls
+  336  cd test
+  337  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  338  ls
+  339  git status
+  340  git checkout -b feature_branch
+  341  ls
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m "new branch with two changes"
+  346  git push -u origin feature _branch
+  347  git push -u origin feature_branch
+  348  git log
+  349  git checkout main
+  350  git merge feature_branch
+  351  cd ..
+  352  git merge feature branch
+  353  git merge feature_branch
+  354  git status
+  355  git log
+  356  git fetch origin
+  357  git status
+  358  git diff main origin/main
+  359  git reset --hard HEAD~1
+  360  cat src_info.txt
+  361  git reset --hard
+  362  git reset --hard
+  363  cat src_info.txt
+  364  ls
+  365  ls -a
+  366  mkdir test
+  367  ls
+  368  cd test
+  369  cd ..
+  370  git checkout -b feature_branch
+  371  git checkout feature_branch
+  372  echo "(this is a message from local feature branch)" >> src_info.txt
+  373  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  374  echo "(this is a message from local feature branch to test_info)" >> ./test/test_info.txt
+  375  ls
+  376  cd test
+  377  ls
+  378  cat test_info.txt
+  379  cd ..
+  380  git status
+  381  git add .
+  382  git status
+  383  git commit -m "new branch with two changes"
+  384  git push -u origin feature branch
+  385  git push -u origin feature_branch
+  386  git log
+  387  git checkout main
+  388  git merge feature_branch
+  389  git status
+  390  git log
+  391  git push origin main
+  392  git fetch origin
+  393  git status
+  394  git diff main origin/main
+  395  git reset --hard HEAD~1
+  396  cat src_info.txt 
+  397  git reset --hard
+  398  cat src_info.txt 
+  399  git pull origin main
+  400  cd ..
+  401  ls
+  402  cd NK-PHYS129/
+  403  ls
+  404  cd ..
+  405  cd ..
+  406  ls
+  407  cd host
+  408  ls
+  409  mkdir git_clone_SEC1
+  410  cd git_clone_SEC1/
+  411  git clone https://github.com/Physics-129AL/git_example.git
+  412  ls
+  413  cd git_example/
+  414  ls
+  415  git status
+  416  git log
+  417  cd ..
+  418  cd ..
+  419  ls
+  420  cd SEC1
+  421  history | tail -n 10000 >> historySEC1.txt
+  422  git add .
+  423  git commit -m "adding terminal history"
+  424  git push origin main
+  425  git checkout feature_branch
+  426  echo "hello world!">>README.md
+  427  ls
+  428  git add .
+  429  git commit -m  "adding README for HW1P4" 
+  430  git push origin feature_branch
+  431  git merge feature_branch
+  432  git checkout main
+  433  git merge feature_branch
+  434  git status
+  435  git push origin main
+  436  git pull
+  437  ls
+  438  cat README.md 
+  439  git pull remote main
+  440  git pull origin main
+  441  cat README.md 
+  442  history | tail -n 1000
+  443  history | sed -n '621, 638p' > historyHW1P4.txt
+  444  ls
+  445  cat history
+  446  cat historyHW1P4.txt
+  447  history | sed -n '621,638p' > historyHW1P4.txt
+  448  cat historyHW1P4.txt 
+  449  history
+  450  history | tail -n 25 > historyHW1P4.txt 
+  451  cat historyHW1P4.txt 
+  452  git add .
+  453  git status
+  454  git commit -m "adding terminal history for HW1P4"
+  455  git push origin main
+  456  ls
+  457  cd SEC2
+  458  git init
+  459  git remote add origin https://github.com/cornnat/SEC2.git
+  460  git remote -v
+  461  ls
+  462  ls
+  463  echo "hi this is my attempt of PHYS 129L section 2 tasks ._." >> README.md
+  464  git add .
+  465  git status
+  466  git commit -m "first commit of all my shtuff"
+  467  git checkout -b main
+  468  git add .
+  469  git status
+  470  git push origin main
+  471  mkdir task1
+  472  ls
+  473  cp mesh.dat ./task1
+  474  ls
+  475  cd task1
+  476  ls
+  477  cd ..
+  478  mv mesh_visualized_test.png ./task1
+  479  ls
+  480  code sec2.ipynb 
+  481  code sec2.py
+  482  pip install matplotlib numpy ipykernel jupyter
+  483  pip install ipywidgets
+  484  ls
+  485  rm sec2.ipynb 
+  486  ls
+  487  ls
+  488  code 2dGS.py
+  489  ls
+  490  ls
+  491  sudo apt update
+  492  sudo apt install nano
+  493  /usr/local/bin/python /root/Desktop/host/SEC2/visualize_data.py
+  494  /usr/local/bin/python /root/Desktop/host/SEC2/visualize_data.py
+  495  ls
+  496  cd SEC2
+  497  ls
+  498  /usr/local/bin/python /root/Desktop/host/SEC2/visualize_data.py
+  499  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  500  python3 2dGS.py 
+  501  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  502  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  503  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  504  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  505  cd
+  506  ls
+  507  cd /root/Desktop/host
+  508  ls
+  509  cd SEC2
+  510  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  511  /usr/local/bin/python /root/Desktop/host/SEC2/2dGS.py
+  512  /usr/local/bin/python /root/Desktop/host/SEC2/monotone_chain.py
+  513  /usr/local/bin/python /root/Desktop/host/SEC2/monotone_chain.py
+  514  ls
+  515  mv monotone_chain.py ./task1
+  516  mv monotone_chain_convex_hull.png ./task1
+  517  ls
+  518  mv visualize_data.py ./task1
+  519  ls
+  520  rm mesh_visualized_test.png 
+  521  ls
+  522  code sec2.py 
+  523  ls
+  524  cd task1/
+  525  ls
+  526  code monotone_chain
+  527  code monotone_chain.py
+  528  /usr/local/bin/python /root/Desktop/host/SEC2/task1/monotone_chain.py
+  529  ls
+  530  code visualize_data.py 
+  531  cd ..
+  532  ls
+  533  rm sec2.py 
+  534  ls
+  535  cd task1
+  536  ls
+  537  cd ..
+  538  rm 2dGS.py 
+  539  cd ./task1
+  540  code jarvis_march.py
+  541  code ./monotone_chain.py
+  542  /usr/local/bin/python /root/Desktop/host/SEC2/task1/jarvis_march.py
+  543  ls
+  544  code graham_scan.py
+  545  python3 graham_scan.py 
+  546  python3 graham_scan.py 
+  547  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  548  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  549  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  550  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  551  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  552  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  553  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  554  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  555  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  556  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  557  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  558  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  559  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  560  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  561  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  562  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  563  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  564  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  565  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  566  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  567  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  568  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  569  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  570  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  571  /usr/local/bin/python /root/Desktop/host/SEC2/task1/graham_scan.py
+  572  git status
+  573  git add .
+  574  git status
+  575  cd ..
+  576  git status
+  577  git remote -v
+  578  git add .
+  579  git status
+  580  git commit -m "adding monotone chain, graham scan is broken, jarvis march not attempted"
+  581  git branch
+  582  git push origin main
+  583  history | tail -n 100000
+  584  history | tail -n 10000 >> SEC2TASK1_history.txt
