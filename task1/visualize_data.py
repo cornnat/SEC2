@@ -13,3 +13,5 @@ plt.ylabel('Y')
 plt.title('Point Cloud Visualization')
 plt.savefig('mesh_visualized_test.png', format='png') 
 plt.show()
+
+print(data)
