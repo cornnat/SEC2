@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#read the data file
-points = np.loadtxt('/root/Desktop/host/SEC2/mesh.dat', skiprows = 1)
+# Read the data file
+points = np.loadtxt('/root/Desktop/host/SEC2/mesh.dat', skiprows=1)
 x = points[:, 0]  # First column is x
 y = points[:, 1]  # Second column is y
 
@@ -23,17 +23,16 @@ def convex_hull_jarvis_march(data):
         # Step 3: Find the most counterclockwise point
         next_point = data[0]
         for candidate in data:
-            if candidate == point:
+            if np.array_equal(candidate, point):  # Compare arrays properly
                 continue
             if cross(point, next_point, candidate) > 0:  # If candidate is more counterclockwise
                 next_point = candidate
         point = next_point
         # Step 4: If we've returned to the leftmost point, stop
-        if point == leftmost:
+        if np.array_equal(point, leftmost):  # Compare arrays properly
             break
 
     return np.array(hull)
-
 
 # Call the function to get the convex hull
 hull = convex_hull_jarvis_march(points)

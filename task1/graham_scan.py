@@ -32,15 +32,16 @@ def scatter_plot(coords, convex_hull=None):
 
     if convex_hull!=None:
         for i in range(1, len(convex_hull)+1):
-            if i==len(convex_hull): i=0 #wrap
-        c0=convex_hull[i-1]
-        c1=convex_hull[i]
-        plt.plot((c0[0], c1[0]), (c0[1], c1[1]), 'r')
-        plt.savefig("testing.png")
+            if i==len(convex_hull): 
+                i=0 #wrap
+            c0=convex_hull[i-1]
+            c1=convex_hull[i]
+            plt.plot((c0[0], c1[0]), (c0[1], c1[1]), 'r')
+    plt.savefig("graham_scan_convex_hull_plot.png")
     plt.show()
 
 def polar_angle(p0, p1=None):
-    if p1==None: p1=anchor
+    if p1 is None: p1=anchor
     y_span=p0[1]-p1[1]
     x_span=p0[0]-p1[0]
     return atan2(y_span, x_span)  
