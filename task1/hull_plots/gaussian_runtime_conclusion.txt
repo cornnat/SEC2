@@ -1,0 +1,3 @@
+Conclusion for Point Cloud with Gaussian Distribution:
+The runtime shows no significant difference when comparing uniform and Gaussian distributions.
+The algorithms follow similar scaling patterns, with Quickhull generally performing the best.

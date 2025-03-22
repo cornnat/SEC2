@@ -1,0 +1,5 @@
+Conclusion for Uniform Distribution (Bounds [0, 1]):
+As the number of points (n) increases, the runtime for each algorithm grows.
+The algorithms generally scale with the complexity of their operations.
+Graham Scan and Monotone Chain tend to have similar performance, with Quickhull being faster.
+Jarvis March has the highest runtime, especially as n grows larger.

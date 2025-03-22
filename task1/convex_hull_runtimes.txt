@@ -1,0 +1,20 @@
+Graham Scan:
+  Average runtime: 0.0010233592987060546 seconds
+  Best runtime: 0.0006551742553710938 seconds
+  Worst runtime: 0.013980865478515625 seconds
+
+Jarvis March:
+  Average runtime: 0.0018146443367004395 seconds
+  Best runtime: 0.0010488033294677734 seconds
+  Worst runtime: 0.004286050796508789 seconds
+
+Quickhull:
+  Average runtime: 0.000685875415802002 seconds
+  Best runtime: 0.00044083595275878906 seconds
+  Worst runtime: 0.005585908889770508 seconds
+
+Monotone Chain:
+  Average runtime: 0.0008035039901733398 seconds
+  Best runtime: 0.00035119056701660156 seconds
+  Worst runtime: 0.03892397880554199 seconds
+

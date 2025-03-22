@@ -1,0 +1,4 @@
+Conclusion for Point Cloud with Bounds [-5, 5]:
+Changing the bounds to [-5, 5] doesn't show a significant difference in algorithm performance.
+The scaling behavior remains the same, although the point cloud has a larger range.
+We still observe the same ranking of algorithms from fastest to slowest.

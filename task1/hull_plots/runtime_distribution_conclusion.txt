@@ -1,0 +1,4 @@
+Conclusion for Runtime Distribution (n=50, 100 runs):
+The runtime distribution for each algorithm follows a roughly normal distribution.
+Quickhull tends to have a slightly tighter distribution and lower runtimes.
+Jarvis March has a wider and higher runtime distribution, indicating variability.
